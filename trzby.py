@@ -1,0 +1,1 @@
+dni = int(input("kolko dni trzieb: "))
