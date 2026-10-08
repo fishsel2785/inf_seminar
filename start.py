@@ -1,7 +1,7 @@
-cislo = int(input("za kolko dni maju zacat trzby?:" ))
+cislo = int(input("od akeho cisla zacnem odpocitavat?: "))
 
-while cislo > 0:
+
+while cislo>0:
     print(cislo)
-    cislo -= 1
-
-print("START !")
+    cislo-=1
+print("start!!!!")

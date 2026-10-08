@@ -8,4 +8,3 @@ for i in range(1,pocet+1):
     else:
         print("vstup povoleny")
 
-    
