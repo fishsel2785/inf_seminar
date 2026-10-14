@@ -1,0 +1,16 @@
+nakup = ["chlieb", "mlieko", "vajcia"]
+
+print()
+print(f"povodny zoznam: {nakup}")
+print()
+nakup.append("maslo")
+print(f"po pridani masla : {nakup}")
+print()
+nakup.insert(0,"kava")
+print(f"po pridani kavy : {nakup}")
+pozicia = nakup.index("vajcia")
+nakup.insert(pozicia,"cukor")
+print()
+print(f"po pridani cukru: {nakup}")
+print()
+print(f"pocet poloziek: {len(nakup)}")
